@@ -1,0 +1,46 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.so
+*.egg-info/
+dist/
+build/
+
+# Virtual environments
+venv/
+.venv/
+env/
+.env/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# TensorFlow / DeepXDE
+*.weights.h5
+checkpoint/
+saved_model/
+*.ckpt
+
+# OS files
+.DS_Store
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Python cache
+*.egg
+*.egg-info
+.pytest_cache/
+.mypy_cache/
+
+# PPTX temp files
+~$*.pptx
