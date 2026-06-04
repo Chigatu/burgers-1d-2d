@@ -68,39 +68,34 @@ burgers_project/
 
 ## Установка и запуск
 
-*```bash*
+```bash
 pip install deepxde tensorflow matplotlib numpy scipy scikit-learn python-pptx
 ```
 
 ### 1D PINN:
-*```bash*
+```bash
 cd 1d
 python generate_reference_1d.py
 python burgers_pinn_1d.py
 ```
 
 ### 1D DeepONet:
-*```bash*
+```bash
 cd 1d
 python generate_deeponet_data.py
 python burgers_deeponet_1d.py
 ```
 
 ### 2D PINN:
-*```bash*
+```bash
 cd 2d
 python generate_reference_2d.py
 python burgers_pinn_2d.py
 ```
 
 ### Сравнительные графики:
-*```bash*
+```bash
 python plot_comparison.py
-```
-
-### Генерация презентации:
-*```bash*
-python create_presentation.py
 ```
 
 ---
