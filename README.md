@@ -16,7 +16,7 @@
 
 ## Структура проекта
 
-*```*
+```
 burgers_project/
 ├── 1d/                         # 1D Burgers equation
 │   ├── burgers_pinn_1d.py      # PINN
@@ -34,7 +34,7 @@ burgers_project/
 ├── create_presentation.py      # генератор презентации
 ├── *.pptx                      # готовая презентация (25 слайдов)
 └── README.md
-*```*
+```
 
 ---
 
@@ -70,38 +70,38 @@ burgers_project/
 
 *```bash*
 pip install deepxde tensorflow matplotlib numpy scipy scikit-learn python-pptx
-*```*
+```
 
 ### 1D PINN:
 *```bash*
 cd 1d
 python generate_reference_1d.py
 python burgers_pinn_1d.py
-*```*
+```
 
 ### 1D DeepONet:
 *```bash*
 cd 1d
 python generate_deeponet_data.py
 python burgers_deeponet_1d.py
-*```*
+```
 
 ### 2D PINN:
 *```bash*
 cd 2d
 python generate_reference_2d.py
 python burgers_pinn_2d.py
-*```*
+```
 
 ### Сравнительные графики:
 *```bash*
 python plot_comparison.py
-*```*
+```
 
 ### Генерация презентации:
 *```bash*
 python create_presentation.py
-*```*
+```
 
 ---
 
